@@ -1,0 +1,7 @@
+free money|get rich quick|click here|make \$?[0-9]+ fast
+https?://\S+
+buy followers|boost your views|pay for likes|increase subscribers
+([A-Za-z0-9])\1{5,}
+(.)\1{10,}
+(\b[A-Za-z]+\b)(?:\s+\1){4,}
+(\b\d{10,}\b)
