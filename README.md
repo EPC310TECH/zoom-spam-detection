@@ -5,9 +5,9 @@ Here’s a breakdown of what we need to work on to make this a fully functional,
 
 ✅ Spam Detection Algorithm
 
-Implement pattern-based filtering (regex, keyword lists).
-Implement AI-based detection using OpenAI API (GPT for context-aware filtering).
 Store spam messages, usernames, and timestamps in a database.
+Implement pattern-based filtering (regex, keyword lists).
+
 
 ✅ Real-time Monitoring Dashboard
 
@@ -34,7 +34,7 @@ Process messages automatically and flag spam in Zoom chat.
 
 🔲 Improve Spam Filtering
 
-Train a custom ML model (fine-tune GPT or use a simpler classifier).
+
 Implement word similarity detection to catch variations of spam words.
 Allow user-configurable spam rules (via a UI).
 
