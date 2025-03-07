@@ -1,0 +1,15 @@
+spam_messages = [
+    "Win big now! Call 123-456-7890", 
+    "Claim your free money at www.scam-site.com", 
+    "Congratulations! You've won $1000. Click here: fake-link.net",
+    "Limited offer! Get rich quick with our program.",
+    "Your account has been compromised. Reset password at phishingsite.org"
+]
+
+ham_messages = [
+    "Hey, are we still meeting at 5?",
+    "Check out this interesting article on space exploration.",
+    "Happy birthday! Hope you have an amazing day.",
+    "Let’s catch up over lunch this weekend!",
+    "Reminder: Project deadline is next Friday."
+]
