@@ -2,53 +2,66 @@
 Here’s a breakdown of what we need to work on to make this a fully functional, launch-ready product:
 
 🔹 1. Core Features (MVP)
+
 ✅ Spam Detection Algorithm
 
 Implement pattern-based filtering (regex, keyword lists).
 Implement AI-based detection using OpenAI API (GPT for context-aware filtering).
 Store spam messages, usernames, and timestamps in a database.
+
 ✅ Real-time Monitoring Dashboard
 
 Show detected spam messages with timestamps & usernames.
 Display spam frequency trends using Recharts (React.js).
 Auto-refresh or WebSocket support for real-time updates.
+
 ✅ Error Handling & Logging
 
 Log errors in a file for debugging.
 Add notification system (Discord webhook, email alerts, or Telegram bot).
+
 ✅ Basic User Management
 
 Store muted users or banned words in a config file.
 Admin panel to add/remove blacklisted words dynamically.
+
 ✅ Zoom API Integration
 
 Connect with Zoom chat API to fetch messages in real-time.
 Process messages automatically and flag spam in Zoom chat.
+
 🔹 2. Scalability & Optimization
+
 🔲 Improve Spam Filtering
 
 Train a custom ML model (fine-tune GPT or use a simpler classifier).
 Implement word similarity detection to catch variations of spam words.
 Allow user-configurable spam rules (via a UI).
+
 🔲 Performance Optimization
 
 Optimize database queries (switch from SQLite to PostgreSQL or MongoDB).
 Improve message processing speed (use async processing & queues).
+
 🔲 Logging & Analytics
 
 Store spam statistics for historical insights.
 Admin dashboard to review flagged messages.
+
 🔹 3. Deployment & Security
+
 🔲 Deployment
 
 Host backend (FastAPI) on AWS, DigitalOcean, or Render.
 Deploy React.js frontend on Vercel, Netlify, or Firebase Hosting.
 Run database on PostgreSQL (AWS RDS or Supabase).
+
 🔲 Security Enhancements
 
 Store API keys in environment variables (use .env file).
 Secure API routes with authentication (JWT, OAuth2, API Keys).
 Prevent spam bypassing (rate limiting, user behavior tracking).
+
 🔲 CI/CD Pipeline
 
 Automate code deployment using GitHub Actions.
